@@ -50,7 +50,19 @@ http://www.if-not-true-then-false.com/2011/install-firefox-on-fedora-centos-red-
 
 
 
+### Atualizar para última versão
 
+Faça o download da última versão [aqui](https://www.mozilla.org/pt-BR/)        
+Agora execute:
+
+    # mv /usr/lib64/firefox /usr/lib64/firefox.old
+    # tar -jxvf firefox-<versão>.tar.bz2
+    # mv /firefox /usr/lib64
+    
+Clique no ícone do firefox para executar, se estiver tudo ok execute:
+
+    # rm -rf /usr/lib64/firefox.old
+    # rm firefox-<versão>.tar.bz2
 
 
 
