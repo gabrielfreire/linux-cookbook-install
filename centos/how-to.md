@@ -23,8 +23,6 @@ Instale:
 
     # rpm -Uhv rpmforge-release-0.5.3-1.el7.rf.x86_64.rpm
 
-    # yum install fuse-ntfs-3g
-
     # yum install ntfs-3g -y
     
 Fonte: [http://www.youtube.com/watch?v=sy7bNb5Efbc](http://www.youtube.com/watch?v=sy7bNb5Efbc)
