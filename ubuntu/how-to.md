@@ -5,7 +5,7 @@ Grub customizer
     sudo apt-get install grub-customizer
 
 
-GNome
+Gnome Classic
 ---
         
     sudo apt-get update
