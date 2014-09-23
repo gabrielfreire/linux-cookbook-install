@@ -1,21 +1,14 @@
 UBUNTU 12+
 
 
-	# apt-get install mysql-server mysql-client
+	# apt-get install mysql-server
 
 
-Setar uma senha para o root (do mysql):
+Setar nova senha de root para o mysql(opcional):
 
-	# mysqladmin -u root password sua_senha_aqui
+	mysqladmin -u root password novasenha
+	
 
+Checar se o mysql está funcionando:
 
-Checar se deu tudo certo:
-
-	# mysql -h localhost -u root -p
-
-Pedira a senha que você acabou de definir e 
-mostrar o prompt do mysql
-
-	mysql>
-
-Digite *exit* para sair
+	netstat -tap | grep -e mysql
